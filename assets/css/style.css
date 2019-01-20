@@ -3,7 +3,7 @@
 
 /*--------------------Header-----------------------------------*/
 
-body {
+html, body {
    margin: 0;
    padding: 0;
    
@@ -12,15 +12,15 @@ body {
 
 header {
     background-color: #35424a;
-    height: 120px
+    height: auto;
     
 }
 
 /*--------------------Navbar-----------------------------------*/
 
 nav ul {
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
     margin-left: 70px;
 }
 
@@ -44,4 +44,13 @@ nav a:hover {
     color: #ff851b;
     font-style: normal;
     font-weight: bold;
+}
+
+/*---media queries---*/
+@media(max-width: 768px) {
+nav a {
+    font-size: small;
+    float: none;
+    display: table-cell;
+ }
 }
