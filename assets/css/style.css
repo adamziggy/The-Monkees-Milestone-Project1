@@ -6,17 +6,42 @@
 body {
    margin: 0;
    padding: 0;
+   
 }
 
 
 header {
     background-color: #35424a;
+    height: 120px
     
 }
 
 /*--------------------Navbar-----------------------------------*/
 
+nav ul {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+}
+
 nav li {
-   display: inline-block;
+   display: inline-table;
+   padding-left: 80px;
+   padding-right: 10px;
+   
+}
+
+nav a {
    text-align: center;
+   font-style: italic;
+   font-family: "Lobster", sans-serif;
+   font-size: 40px; 
+   color: #ffffff;
+}
+
+nav a:hover {
+   text-decoration: none;
+    color: #ff851b;
+    font-style: normal;
+    font-weight: bold;
 }
