@@ -46,11 +46,26 @@ nav a:hover {
     font-weight: bold;
 }
 
-/*---media queries---*/
-@media(max-width: 768px) {
-nav a {
-    font-size: small;
-    float: none;
-    display: table-cell;
- }
+
+/*--------------------Main Photo-----------------------------------*/
+
+
+.responsive {
+    width: 100%;
+  height: auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------Media Quaries-----------------------------------*/
+
+
