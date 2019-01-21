@@ -3,9 +3,10 @@
 
 /*--------------------Header-----------------------------------*/
 
-html, body {
+body, html {
    margin: 0;
    padding: 0;
+   height: 100%;
    
 }
 
@@ -21,7 +22,7 @@ header {
 nav ul {
     margin-top: 20px;
     margin-bottom: 15px;
-    margin-left: 70px;
+    margin-left: 90px;
 }
 
 nav li {
@@ -35,7 +36,7 @@ nav a {
    text-align: center;
    font-style: italic;
    font-family: "Lobster", sans-serif;
-   font-size: 40px; 
+   font-size: 35px; 
    color: #ffffff;
 }
 
@@ -52,43 +53,59 @@ nav a:hover {
 
 .responsive {
     width: 100%;
-  height: auto;
+    
+
+  
 }
 
 
 /*--------------------Newsletter-----------------------------------*/
 
-/* Style the form - display items horizontally */
-.form-inline { 
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
+
+h2 {
+padding-right: 15px;
+padding-left: 5px;
+padding-bottom: 10px;
+font-family: "Lobster", sans-serif;
+font-size: 35px;
+color: #ffffff;
 }
 
-/* Add some margins for each label */
+
+
+.form-inline { 
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    background-color: #ff851b;
+    padding: 10px 10px 10px 15px;
+}
+
 .form-inline label {
   margin: 5px 10px 5px 0;
 }
 
-/* Style the input fields */
 .form-inline input {
   vertical-align: middle;
   margin: 5px 10px 5px 0;
-  padding: 10px;
+  padding: 5px;
   background-color: #fff;
   border: 1px solid #ddd;
 }
 
-/* Style the submit button */
 .form-inline button {
-  padding: 10px 20px;
-  background-color: dodgerblue;
+  padding: 5px 20px;
+  background-color: #35424a;
   border: 1px solid #ddd;
   color: white;
 }
 
+
+
+
 .form-inline button:hover {
-  background-color: royalblue;
+ cursor: pointer;
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 /* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
