@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Poppins:100,200,300,400,500,600,700|Lobster:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Lobster:100,200,300,400,500,600,700');
 
 
 /*--------------------Header-----------------------------------*/
@@ -53,6 +53,7 @@ nav a:hover {
 
 .responsive {
  width: 100%;
+ 
 }
     
   
@@ -144,3 +145,83 @@ color: #ffffff;
     margin-right: auto;
     padding-top: 50px;
  }
+ 
+ .band-info {
+     font-family: "Lobster", sans-serif;
+     text-align: center;
+     margin:20px 0 20px 0;
+ }
+ 
+ .main-text {
+     font-family: "Poppins", sans-serif;
+     text-align: justify;
+     padding: 0 75px 0 75px;
+     
+ }
+ 
+ 
+/*--------------------Footer-----------------------------------*/
+
+
+footer {
+    background: #35424a;
+    height: 150px
+
+
+}
+
+.list-inline {
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+    
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  height: 32px;
+  width: 32px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 50%;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+   height: 32px;
+  width: 32px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 50%;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+   height: 32px;
+  width: 32px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 50%;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+   height: 32px;
+  width: 32px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 50%;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+   height: 32px;
+  width: 32px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 50%;
+}
