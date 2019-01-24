@@ -7,7 +7,7 @@ body, html {
    margin: 0;
    padding: 0;
    height: 100%;
-   
+   width: 100%;
 }
 
 
@@ -160,6 +160,39 @@ color: #ffffff;
  }
  
  
+ /*--------------------Music Page-----------------------------------*/
+ 
+ .music {
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    margin-top: 25px;
+}
+
+
+
+
+
+.title {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+audio {
+    margin-bottom: 50px;
+    border-color: #FF851B;
+    border-bottom-width: 8px;
+    border-bottom-style: double;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    border-top-color: #35424a;
+    border-top-style: double;
+    border-top-left-radius: 35%;
+    border-top-right-radius: 35%;
+    border-top-width: 8px;
+}
+ 
 /*--------------------Footer-----------------------------------*/
 
 
@@ -226,11 +259,7 @@ footer {
 
 /*--------------------Photo Gallery-----------------------------------*/
 
-body{
-    overflow-x: hidden;
-    width: 100%;
-    
-}
+  
 
 #service-provide{
     padding: 80px 0;
