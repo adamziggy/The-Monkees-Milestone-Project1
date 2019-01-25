@@ -80,6 +80,7 @@ color: #ffffff;
     align-items: center;
     background-color: #ff851b;
     padding: 10px 10px 10px 15px;
+    margin-bottom: 100px;
 }
 
 .form-inline label {
@@ -155,16 +156,12 @@ color: #ffffff;
  .main-text {
      font-family: "Poppins", sans-serif;
      text-align: justify;
-     padding: 0 75px 0 75px;
+     padding: 0 75px 75px 75px;
      
  }
  
  
  /*--------------------Music Page-----------------------------------*/
- 
- .audio-player {
-     background-image: url("../images/home.gif");
- }
  
  
  .music {
@@ -187,7 +184,7 @@ color: #ffffff;
 
 
 audio {
-    margin-bottom: 180px;
+    margin-bottom: 90px;
     border-color: #FF851B;
     border-bottom-width: 8px;
     border-bottom-style: double;
@@ -198,7 +195,7 @@ audio {
     border-top-left-radius: 35%;
     border-top-right-radius: 35%;
     border-top-width: 8px;
-    width: 510px;
+    width:370px;
     height: 70px;
     
 }
@@ -327,6 +324,14 @@ button[type="submit"] {
     margin-top: 20px;
     margin-bottom: 20px;
     
+}
+
+form {
+    margin-bottom: 110px;
+}
+
+.back-img {
+background-image: url("../images/home.gif");
 }
 
 /*--------------------Footer-----------------------------------*/
