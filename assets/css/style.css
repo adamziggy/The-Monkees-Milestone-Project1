@@ -11,11 +11,15 @@ body, html {
 }
 
 
+
 header {
     background-color: #35424a;
     height: auto;
     
 }
+
+
+
 
 /*--------------------Navbar-----------------------------------*/
 
@@ -330,9 +334,7 @@ form {
     margin-bottom: 110px;
 }
 
-.back-img {
-background-image: url("../images/home.gif");
-}
+
 
 /*--------------------Footer-----------------------------------*/
 
