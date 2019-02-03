@@ -3,11 +3,9 @@
 
 /*--------------------Header-----------------------------------*/
 
-body, html {
+html {
    margin: 0;
    padding: 0;
-   height: 100%;
-   width: 100%;
 }
 
 body {
@@ -60,7 +58,7 @@ nav a:hover {
 
 .responsive {
  width: 100%;
- background-attachment: fixed;
+ 
  
 }
     
@@ -313,6 +311,7 @@ audio {
     padding-right: 6px;
     margin-top: 25px;
     padding-bottom: 0px;
+    padding-bottom: 75px;
 }
 .margright
 {
@@ -322,7 +321,19 @@ audio {
 
 /*--------------------Video Gallery-----------------------------------*/
 
-
+video {
+    margin-bottom: 80px;
+    border-color: #FF851B;
+    border-bottom-width: 12px;
+    border-bottom-style: double;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-top-color: #35424a;
+    border-top-style: double;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-top-width: 12px;
+}
 
 
 /*---------------------Contact-----------------------------------*/
@@ -407,3 +418,7 @@ footer {
   padding-top: 10px;
   border-radius: 50%;
 }
+
+/*---------------------Media Queries-----------------------------------*/
+
+
