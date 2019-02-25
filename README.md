@@ -31,7 +31,7 @@ ___
 
 This Website is divided into five pages:
 
-1. [Home page](https://preview.c9users.io/adamziggy/the-band-responsive/index.html): Main page of the website where you can find infos about the band and what they do these days.
+1. [Home page](https://the-monkees-milestone-project-adamziggy.c9users.io/index.html): Main page of the website where you can find infos about the band and what they do these days.
 2. [Music page](https://preview.c9users.io/adamziggy/the-band-responsive/music.html): Page where you can listen to their music.
 3. [Video page](https://preview.c9users.io/adamziggy/the-band-responsive/video.html): Page where you can watch some of their video clips.
 4. [Photo page](https://preview.c9users.io/adamziggy/the-band-responsive/photo.html): On this Page you cal lookup the bands Photos and album covers.
