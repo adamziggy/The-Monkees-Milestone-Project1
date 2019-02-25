@@ -68,14 +68,17 @@ ___
  
  [StackOverflow](https://stackoverflow.com/)
 
+
+
 ### Media
 
 * The videos ,mp3's and photos were provided by [Code institute](https://codeinstitute.net/)
 
 ### Acknowledgements
 
-* I received inspiration for this project from pages like (https://www.free-css.com/free-css-templates) and many more.
+* I received inspiration for this project from pages like (https://www.free-css.com/free-css-templates) and 
+
+* (https://codepen.io/jvjijith/pen/ozwKdy)
 
 
-
-
+ 
